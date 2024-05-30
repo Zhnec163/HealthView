@@ -994,7 +994,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5109641451429717704, guid: 1f58e272f045e0d40b242440cc94feac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5391978038483479133, guid: 1f58e272f045e0d40b242440cc94feac, type: 3}
       propertyPath: m_Name
@@ -1002,11 +1002,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5391978038483479133, guid: 1f58e272f045e0d40b242440cc94feac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5814836225674451683, guid: 1f58e272f045e0d40b242440cc94feac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8274411530862065898, guid: 1f58e272f045e0d40b242440cc94feac, type: 3}
       propertyPath: m_Pivot.x
@@ -1111,7 +1111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3499921833415166881, guid: 42ba01539d3e7cd4db578484c5d82903, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4793461063363626434, guid: 42ba01539d3e7cd4db578484c5d82903, type: 3}
       propertyPath: Health

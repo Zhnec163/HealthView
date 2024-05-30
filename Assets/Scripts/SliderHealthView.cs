@@ -11,15 +11,13 @@ public class SliderHealthView : HealthView
             Slider = slider;
         }
         
-        Slider.minValue = 0;
-        Slider.maxValue = Health.MaxHealthPont;
-        Slider.value = Health.Current;
+        Slider.value = Health.Current / Health.MaxHealthPont;
         base.Start();
     }
     
     protected override void HandleValueChange()
     {
         if (Slider != null)
-            Slider.value = Health.Current;
+            Slider.value = Health.Current / Health.MaxHealthPont;
     }
 }
